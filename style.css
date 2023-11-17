@@ -12,13 +12,13 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: #FFF;
+	background: #F5F4E1;
 	font-family: 'Open Sans', sans-serif;
 }
 
 header {
 	height: 90vh;
-	/* background: #000; */
+	/* background: #0000; */
 }
 .black {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -31,7 +31,7 @@ nav {
 	display: flex;
 	width: 100%;
 	z-index: 1000;
-	background: #fff;
+	background: #f5f4e1;
 	justify-content: space-around;
 	transition: 1.5s;
 	align-items: center;
@@ -52,14 +52,14 @@ nav ul li a {
 	text-decoration: none;
 }
 nav ul li a:hover {
-	color: #fff;
+	color: #f5f4e1;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #722a14;
 }
 .active {
-	color: #fff;
+	color: #f5f4e1;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #722a14	;
 }
 .srch {
 	padding: 2px 10px;
@@ -84,17 +84,17 @@ nav ul li a:hover {
 .get-started {
 	margin-left: 50px;
 	padding: 5px 20px;
-	border: 2px solid #DF2771;
+	border: 2px solid #722a14	;
 	border-radius: 20px;
 	text-decoration: none;
 	
 	transition: .5s;
-	background-color: #DF2771;
-	color: #fff;
+	background-color: #722a14	;
+	color: #f5f4e1;
 }
 .get-started:hover {
 	color: #2e2e2e;
-	background: #fff;
+	background: #f5f4e1;
 }
 .logo img{
 	width: 120px;
@@ -164,7 +164,7 @@ a, button {
 .side-menu {
 	width: 100%;
 	height: 100%;
-	background: rgba(182, 33, 90, 0.993);
+	background: rgba(114, 42, 20, 0.993);
 	position: absolute;
 	top: 0;
 	transition: .8s;
@@ -184,15 +184,15 @@ a, button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* border-bottom: 1px solid #fff; */
+	/* border-bottom: 1px solid #f5f4e1; */
 	/* padding: 10px 0px; */
 }
 .side-menu ul li:hover a{
-	background: #fff;
-	color: #DF2771;
+	background: #f5f4e1;
+	color: #722a14	;
 }
 .side-menu ul li a{
-	color: #FFF;
+	color: #F5f4e1;
 	width: 100%;
 	font-size: 1em;
 	/* background: #2E3D49; */
@@ -214,13 +214,13 @@ a, button {
 .user img {
 	width: 60px;
 	border-radius: 50%;
-	border: 2px solid #fff;
+	border: 2px solid #f5f4e1;
 	filter: drop-shadow(0 10px 20px #0004);
 	margin-right: 30px;
 	cursor: pointer;
 }
 .user p {
-	color: #fff;
+	color: #f5f4e1;
 	cursor: pointer;
 }
 .user img, .user p {
@@ -254,7 +254,7 @@ a, button {
 	padding-bottom: 150px;
 	font-size: 50px;
 	text-align: center;
-	color: #fff;
+	color: #f5f4e1;
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -269,7 +269,7 @@ a, button {
 }
 .smbox span {
 	margin: 1%;
-	background: #fff;
+	background: #f5f4e1;
 	box-shadow: inset 0px 0px 25px rgba(0,0,0,0.2),
 						0 0 40px rgba(0,0,0,0.3);
 	border-radius: 10px;
@@ -311,7 +311,7 @@ a, button {
 .about-content .side-text {
 	width: 550px;
 	padding: 50px 40px;
-	background: #fff;
+	background: #f5f4e1;
 	box-shadow: 2px 0 100px rgba(0,0,0,0.3);
 	border-radius: 5px;
 	text-align: justify;
@@ -356,7 +356,7 @@ a, button {
 	width: 250px;
 	height: 80px;
 	margin: 10px;
-	background: #fff;
+	background: #f5f4e1;
 	cursor: pointer;
 }
 .cbox .det a{
@@ -371,7 +371,7 @@ a, button {
 	text-decoration: none;
 }
 .cbox .det a:hover {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	color: white;
 }
 .cbox .det a:hover img{
@@ -395,7 +395,7 @@ a, button {
 	margin: 50px;
 	width: 300px;
 	border-radius: 10px;
-	background: #fff;
+	background: #f5f4e1;
 }
 .totalcard .card{
 	box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
@@ -456,11 +456,11 @@ a, button {
 }
 .btn-roshan:hover {
 	background: rgba(0,255,0,0.7);
-	color: #fff;
+	color: #f5f4e1;
 }
 .btn-roshan2:hover {
 	background: rgba(0,0,255,0.5);
-	color: #fff;
+	color: #f5f4e1;
 }
 .card-title {
 	font-size: 17px;
@@ -513,7 +513,7 @@ a, button {
 
 /*Contact Us Section*/
 .csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -538,7 +538,7 @@ a, button {
 	border-radius: 10px;
 	justify-content: center;
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
-	background: #fff;
+	background: #f5f4e1;
 }
 .cc form {
 	margin: 5%;
@@ -578,13 +578,13 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
 	width: 100%;
 	padding: 15px 25px;
-	color: #fff;
+	color: #f5f4e1;
 	font-size: 12px;
 	cursor: pointer;
 }
@@ -613,7 +613,7 @@ form textarea {
 	width: 550px;
 	height: 240px;
 	margin-bottom: 40px;
-	background: #fff;
+	background: #f5f4e1;
 	display: flex;
 	padding: 10px;
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
@@ -727,7 +727,7 @@ form textarea {
 	border: 1px solid rgba(0,0,0,0.2);
 	outline: none;
 	color: #2E3D49;
-	background: #fff9;
+	background: #f5f4e19;
 	font-weight: 600;
 }
 .feed form input {
@@ -743,13 +743,13 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
 	width: 100%;
 	padding: 15px 25px;
-	color: #fff;
+	color: #f5f4e1;
 	font-size: 12px;
 	cursor: pointer;
 }
@@ -758,7 +758,7 @@ form textarea {
 .marqu {
 	text-align: center;
 	justify-content: center;
-	color: #fff;
+	color: #f5f4e1;
 	font-size: 20px;
 	padding: 10px;
 }
@@ -783,7 +783,7 @@ footer .social-media img{
 }
 footer .logo {
 	width: 180px;
-	color: #fff;
+	color: #f5f4e1;
 }
 footer .social-media a{
 	margin-right: 10px;
@@ -796,7 +796,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -826,7 +826,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #722a14);
 	border: none;
 	font-weight: 700;
 	outline: none;
