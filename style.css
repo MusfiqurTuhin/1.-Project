@@ -119,6 +119,7 @@ a, button {
 	align-items: center;
 	justify-content: space-around;
 }
+
 .quote {
 	width: 600px;
 	transform: translateY(-50px);
@@ -766,7 +767,7 @@ form textarea {
 /*FOOTER*/
 footer {
 	color: #E5E8EF;
-	background: #000D;
+	background: black;
 	padding: 50px 0; 
 }
 footer .footer-container {
