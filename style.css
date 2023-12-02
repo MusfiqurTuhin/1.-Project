@@ -80,6 +80,29 @@ nav ul li a:hover {
 	border: none;
 	background: transparent;
 }
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+}
+
+nav ul li ul.submenu li {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
 
 .get-started {
 	margin-left: 50px;
